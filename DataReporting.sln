@@ -3,13 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataReporting", "DataReporting\DataReporting.csproj", "{9178DECE-720A-49FA-B57C-95190B49BA6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataReporting", "DataReporting\DataReporting.csproj", "{9178DECE-720A-49FA-B57C-95190B49BA6F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A241165-A4B8-4B9A-AD5D-3D8DC8CD4852} = {5A241165-A4B8-4B9A-AD5D-3D8DC8CD4852}
+		{0878FCC9-E752-4950-A3FB-D9827D3F4AE9} = {0878FCC9-E752-4950-A3FB-D9827D3F4AE9}
+		{07D5A7DE-4650-48FC-9131-9CC122D61D88} = {07D5A7DE-4650-48FC-9131-9CC122D61D88}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataReporting.DataAccess", "DataReporting.DataAccess\DataReporting.DataAccess.csproj", "{0878FCC9-E752-4950-A3FB-D9827D3F4AE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataReporting.DataAccess", "DataReporting.DataAccess\DataReporting.DataAccess.csproj", "{0878FCC9-E752-4950-A3FB-D9827D3F4AE9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A241165-A4B8-4B9A-AD5D-3D8DC8CD4852} = {5A241165-A4B8-4B9A-AD5D-3D8DC8CD4852}
+		{07D5A7DE-4650-48FC-9131-9CC122D61D88} = {07D5A7DE-4650-48FC-9131-9CC122D61D88}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataReporting.Models", "DataReporting.Models\DataReporting.Models.csproj", "{07D5A7DE-4650-48FC-9131-9CC122D61D88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataReporting.Models", "DataReporting.Models\DataReporting.Models.csproj", "{07D5A7DE-4650-48FC-9131-9CC122D61D88}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A241165-A4B8-4B9A-AD5D-3D8DC8CD4852} = {5A241165-A4B8-4B9A-AD5D-3D8DC8CD4852}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataReporting.Utility", "DataReporting.Utility\DataReporting.Utility.csproj", "{5A241165-A4B8-4B9A-AD5D-3D8DC8CD4852}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataReporting.Utility", "DataReporting.Utility\DataReporting.Utility.csproj", "{5A241165-A4B8-4B9A-AD5D-3D8DC8CD4852}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

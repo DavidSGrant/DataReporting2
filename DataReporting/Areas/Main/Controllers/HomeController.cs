@@ -7,8 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using DataReporting.Models;
 
-namespace DataReporting.Controllers
+namespace DataReporting.Areas.Main.Controllers
 {
+    [Area("Main")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
